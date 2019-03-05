@@ -19,9 +19,8 @@ public class MainController {
     public String home (ModelMap modelMap){
         List <String> names = new ArrayList<>();
         names.add("Armen");
-        names.add("Artur");
-        names.add("Noro");
-        names.add("Arsen");
+        names.add("Vzgo");
+        names.add("Vaxo");
         modelMap.addAttribute("name",names);
         return "home";
     }
